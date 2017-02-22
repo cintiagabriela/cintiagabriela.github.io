@@ -4160,6 +4160,43 @@ body.is-touch #banner {
 
 }
 
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;  
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+.embed-responsive-16by9 {
+    padding-bottom: 56.25%;
+}
+.embed-responsive-4by3 {
+  padding-bottom: 75%;
+}
+.grid{
+    padding: 10px;
+    background: #fff;
+    border-radius: 6px;
+    height: 320px;
+}
+.link{
+    font-weight: bolder;
+    color: #f00;
+    font-size: 20px;
+}
 /* XSmall */
 
 @media screen and (max-width: 480px) {
